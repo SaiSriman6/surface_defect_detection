@@ -1,0 +1,59 @@
+{
+  "model_name": "Feature Extraction",
+  "sample_counts": {
+    "total_test_samples": 44,
+    "normal_samples": 35,
+    "defective_samples": 9
+  },
+  "classification_metrics": {
+    "accuracy": 0.9773,
+    "precision": 1.0,
+    "recall": 0.8889,
+    "f1_score": 0.9412,
+    "roc_auc": 0.9968
+  },
+  "confusion_matrix": {
+    "tn": 35,
+    "fp": 0,
+    "fn": 1,
+    "tp": 8,
+    "matrix": [
+      [
+        35,
+        0
+      ],
+      [
+        1,
+        8
+      ]
+    ]
+  },
+  "classification_report": {
+    "Normal": {
+      "precision": 0.9722222222222222,
+      "recall": 1.0,
+      "f1-score": 0.9859154929577465,
+      "support": 35.0
+    },
+    "Defective": {
+      "precision": 1.0,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.9411764705882353,
+      "support": 9.0
+    },
+    "accuracy": 0.9772727272727273,
+    "macro avg": {
+      "precision": 0.9861111111111112,
+      "recall": 0.9444444444444444,
+      "f1-score": 0.9635459817729909,
+      "support": 44.0
+    },
+    "weighted avg": {
+      "precision": 0.9779040404040404,
+      "recall": 0.9772727272727273,
+      "f1-score": 0.9767643292912556,
+      "support": 44.0
+    }
+  },
+  "threshold": 0.5
+}

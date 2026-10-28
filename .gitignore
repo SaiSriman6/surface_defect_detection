@@ -1,0 +1,32 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Datasets and large archives (raw dataset archives)
+data/raw/*.tar.xz
+data/raw/*.tar.gz
+data/raw/*.zip
+data/raw/bottle.tar.xz
+data/raw/metal_nut.tar.xz
+
+# Matplotlib cache
+.matplotlib/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large model checkpoints (optional: keep track of README, ignore bulky raw files if needed)
+# *.h5
+# *.keras

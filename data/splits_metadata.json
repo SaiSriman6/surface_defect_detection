@@ -1,0 +1,1505 @@
+{
+  "category": "bottle",
+  "seed": 42,
+  "raw_summary": {
+    "category": "bottle",
+    "total_valid_samples": 292,
+    "normal_samples": 229,
+    "defective_samples": 63,
+    "defect_type_breakdown": {
+      "broken_large": 20,
+      "broken_small": 22,
+      "contamination": 21
+    },
+    "corrupted_files_count": 0,
+    "corrupted_files": []
+  },
+  "splits": {
+    "train": {
+      "total": 204,
+      "normal": 160,
+      "defective": 44,
+      "defect_ratio": 0.2157
+    },
+    "val": {
+      "total": 44,
+      "normal": 34,
+      "defective": 10,
+      "defect_ratio": 0.2273
+    },
+    "test": {
+      "total": 44,
+      "normal": 35,
+      "defective": 9,
+      "defect_ratio": 0.2045
+    }
+  },
+  "manifest": {
+    "train": [
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0000_026.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0001_000.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0002_025.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0003_043.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0004_132.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0005_163.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0006_013.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0007_114.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0008_090.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0009_004.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0010_047.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0011_016.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0012_105.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0013_115.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0014_004.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0015_073.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0016_031.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0017_196.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0018_016.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0019_004.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0020_036.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0021_028.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0022_017.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0023_023.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0024_141.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0025_123.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0026_193.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0027_093.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0028_178.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0029_010.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0030_066.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0031_009.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0032_044.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0033_126.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0034_139.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0035_003.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0036_008.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0037_094.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0038_186.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0039_007.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0040_013.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0041_075.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0042_204.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0043_095.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0044_098.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0045_035.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0046_136.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0047_008.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0048_014.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0049_038.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0050_041.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0051_133.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0052_001.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0053_010.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0054_128.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0055_056.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0056_009.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0057_065.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0058_104.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0059_070.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0060_076.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0061_015.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0062_003.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0063_042.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0064_182.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0065_008.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0066_045.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0067_005.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0068_011.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0069_007.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0070_019.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0071_154.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0072_203.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0073_111.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0074_002.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0075_077.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0076_012.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0077_138.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0078_175.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0079_015.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0080_010.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0081_032.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0082_018.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0083_062.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0084_144.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0085_086.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0086_150.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0087_000.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0088_014.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0089_015.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0090_078.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0091_124.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0092_206.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0093_064.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0094_006.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0095_012.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0096_005.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0097_168.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0098_109.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0099_016.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0100_006.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0101_046.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0102_164.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0103_017.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0104_185.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0105_003.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0106_012.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0107_190.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0108_015.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0109_148.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0110_197.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0111_183.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0112_015.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0113_029.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0114_171.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0115_097.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0116_013.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0117_051.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0118_018.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0119_142.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0120_177.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0121_137.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0122_161.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0123_001.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0124_120.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0125_184.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0126_113.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0127_127.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0128_003.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0129_024.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0130_096.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0131_069.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0132_145.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0133_018.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0134_082.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0135_143.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0136_006.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0137_014.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0138_122.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0139_011.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0140_155.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0141_060.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0142_181.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0143_007.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0144_100.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0145_173.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0146_117.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0147_079.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0148_125.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0149_030.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0150_002.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0151_153.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0152_022.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0153_021.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0154_135.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0155_013.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0156_140.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0157_180.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0158_159.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0159_027.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0160_158.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0161_198.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0162_208.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0163_112.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0164_004.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0165_146.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0166_165.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0167_016.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0168_192.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0169_081.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0170_001.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0171_067.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0172_152.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0173_101.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0174_009.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0175_084.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0176_019.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0177_005.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0178_147.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0179_194.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0180_167.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0181_085.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0182_119.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0183_053.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0184_162.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0185_033.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0186_061.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0187_017.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0188_003.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0189_014.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0190_011.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0191_170.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0192_205.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0193_172.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0194_156.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0195_039.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0196_055.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0197_108.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0198_040.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0199_118.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\normal\\0200_068.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0201_009.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0202_011.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\train\\defective\\0203_000.png",
+        "label": 1,
+        "defect_type": "contamination"
+      }
+    ],
+    "val": [
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0000_207.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0001_058.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0002_149.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0003_074.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\defective\\0004_019.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0005_021.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0006_008.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0007_106.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0008_050.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0009_048.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0010_083.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0011_102.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0012_059.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0013_001.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0014_121.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0015_017.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0016_187.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\defective\\0017_012.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0018_176.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0019_057.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0020_200.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\defective\\0021_002.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\defective\\0022_010.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\defective\\0023_005.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\defective\\0024_018.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0025_080.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0026_005.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0027_160.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\defective\\0028_002.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0029_110.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0030_071.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\defective\\0031_020.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0032_054.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0033_019.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\defective\\0034_020.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0035_099.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\defective\\0036_000.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0037_131.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0038_052.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0039_016.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0040_014.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0041_130.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0042_169.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\val\\normal\\0043_188.png",
+        "label": 0,
+        "defect_type": "none"
+      }
+    ],
+    "test": [
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0000_151.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\defective\\0001_019.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0002_087.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0003_072.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0004_129.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0005_037.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\defective\\0006_009.png",
+        "label": 1,
+        "defect_type": "contamination"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0007_166.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0008_089.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0009_088.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0010_179.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0011_034.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\defective\\0012_011.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\defective\\0013_018.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0014_157.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0015_012.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0016_006.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0017_189.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0018_092.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\defective\\0019_017.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0020_195.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0021_199.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0022_002.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0023_007.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0024_201.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\defective\\0025_007.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0026_013.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0027_063.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0028_091.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0029_191.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0030_001.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0031_116.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0032_020.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\defective\\0033_006.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\defective\\0034_004.png",
+        "label": 1,
+        "defect_type": "broken_small"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0035_000.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0036_008.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0037_107.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\defective\\0038_010.png",
+        "label": 1,
+        "defect_type": "broken_large"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0039_134.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0040_174.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0041_202.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0042_049.png",
+        "label": 0,
+        "defect_type": "none"
+      },
+      {
+        "processed_path": "C:\\Users\\veerl\\Desktop\\DL_PROJECT\\data\\processed\\bottle\\test\\normal\\0043_103.png",
+        "label": 0,
+        "defect_type": "none"
+      }
+    ]
+  }
+}
