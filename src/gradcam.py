@@ -15,7 +15,11 @@ import logging
 from pathlib import Path
 from typing import Dict, Optional, Tuple, Union
 
-import cv2
+try:
+    import cv2
+except (ImportError, Exception):
+    cv2 = None
+
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.cm as cm
@@ -165,7 +169,14 @@ def overlay_gradcam_heatmap(
     h, w = original_rgb_image.shape[:2]
 
     # Resize heatmap to match image dimensions
-    resized_heatmap = cv2.resize(heatmap, (w, h), interpolation=cv2.INTER_LINEAR)
+    if cv2 is not None:
+        resized_heatmap = cv2.resize(heatmap, (w, h), interpolation=cv2.INTER_LINEAR)
+    else:
+        # Fallback using PIL (removes strict requirement on libGL/OpenCV)
+        pil_heat = Image.fromarray((np.clip(heatmap, 0.0, 1.0) * 255.0).astype(np.uint8))
+        resized_pil = pil_heat.resize((w, h), Image.Resampling.BILINEAR)
+        resized_heatmap = np.array(resized_pil, dtype=np.float32) / 255.0
+
     resized_heatmap = np.clip(resized_heatmap, 0.0, 1.0)
 
     # Apply color map
@@ -179,7 +190,11 @@ def overlay_gradcam_heatmap(
     # Overlay: blend colored heatmap with original image
     img_float = original_rgb_image.astype(np.float32)
     heat_float = colored_rgb.astype(np.float32)
-    overlay = cv2.addWeighted(img_float, 1.0 - alpha, heat_float, alpha, 0)
+    if cv2 is not None:
+        overlay = cv2.addWeighted(img_float, 1.0 - alpha, heat_float, alpha, 0)
+    else:
+        # Pure NumPy linear interpolation (exact equivalent of cv2.addWeighted)
+        overlay = (1.0 - alpha) * img_float + alpha * heat_float
     overlay = np.clip(overlay, 0, 255).astype(np.uint8)
 
     return colored_rgb, overlay
